@@ -34,13 +34,13 @@ const renderItemButton = (item) => {
 
     if (cartItem) {
       return (
-        <View style={{ width:60,borderRadius: 9, padding: 5, flexDirection: 'row', backgroundColor: 'rgb(0, 204, 0)', justifyContent: 'space-between', marginTop:30 }}>
+        <View style={{ width:60,borderRadius: 9, padding: 5, flexDirection: 'row', backgroundColor: 'rgb(0, 204, 0)', justifyContent: 'space-between', marginTop:30, alignItems:'center' }}>
           <TouchableOpacity onPress={() => decreaseQuantity(item.id)}>
-            <Text style={{ fontSize: 15, color: 'white' }}>-</Text>
+            <Text style={{ fontSize: 15, color: 'white',width:13}}>-</Text>
           </TouchableOpacity>
-          <Text style={{ fontSize: 15, color: 'white' }}>{cartItem.quantity}</Text>
+          <Text style={{ fontSize: 12, color: 'white', marginRight:5 }}>{cartItem.quantity}</Text>
           <TouchableOpacity onPress={() => addToCart(item.id)}>
-            <Text style={{ fontSize: 15, color: 'white' }}>+</Text>
+            <Text style={{ fontSize: 15, color: 'white',width:13}}>+</Text>
           </TouchableOpacity>
         </View>
       );
@@ -280,7 +280,7 @@ return (
                             </View>
                             <View style={{ width:'100%', height:40, justifyContent:'space-between', alignItems:'center',flexDirection:'row'}}>
                             <Text style={{color:'black', marginLeft:15, fontWeight:'bold'}}>₹{allitem.price}</Text>
-                            <TouchableOpacity style={styles.Add} onPress={()=> addToCart(allitem.id)}>
+                            <TouchableOpacity style={styles.Adds} onPress={()=> addToCart(allitem.id)}>
                             <Text style={{color:'white',fontSize:20, alignItems:'center', justifyContent:'center', fontWeight:'bold'}}>+</Text>  
                             </TouchableOpacity>                     
                             </View>
@@ -805,18 +805,31 @@ const styles = StyleSheet.create({
     mapcontent:{
         // backgroundColor:'yellow',
         flexDirection:'row',
-        justifyContent:'space-between',
+        justifyContent:'space-around',
         alignItems:'center',
-        height:80
+        height:80,
+         width:"100%"
     },
     Add:{
         marginRight:15,
         width:35,
         height:35,
         alignItems:'center',
-        borderRadius:25,
         justifyContent:'center',
-        backgroundColor:'rgb(0, 204, 0)',
+        borderRadius: 25,
+        flexDirection: 'row',
+        backgroundColor: 'rgb(0, 204, 0)',
+        marginTop:30
+    },
+    Adds:{
+        marginRight:15,
+        width:35,
+        height:35,
+        alignItems:'center',
+        justifyContent:'center',
+        borderRadius: 25,
+        flexDirection: 'row',
+        backgroundColor: 'rgb(0, 204, 0)',
     },
     scndmap:{
         height:330,

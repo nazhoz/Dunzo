@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, TouchableOpacity, View, TextInput, Image, Alert,KeyboardAvoidingView, Platform } from 'react-native';
 import { NavigationProp } from '@react-navigation/native';
+import LottieView from 'lottie-react-native';
 
 type HomeProps = {
   navigation: NavigationProp<any>;
@@ -55,9 +56,9 @@ const styles = StyleSheet.create({
     width: 250,
     height: 40,
     borderColor: 'gray',
-    borderWidth: 1,
+    elevation:0.5,
     paddingHorizontal: 10,
-    color:'black'
+    color:'black',
   },
   inputError: {
     borderColor: 'red',
@@ -70,6 +71,7 @@ const styles = StyleSheet.create({
   touch: {
     backgroundColor: 'lightgreen',
     padding: 10,
+    elevation:1
   },
 });
 
