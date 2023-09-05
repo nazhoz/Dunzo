@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View,StatusBar } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import 'react-native-gesture-handler';
@@ -7,6 +7,7 @@ import Home from './Components/Home';
 import Daily from './Components/Daily';
 import LoginPage from './Components/LoginPage';
 import { CartProvider } from './context/shop-context';
+import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 const App = () => {
   const Stack = createStackNavigator();

@@ -10,8 +10,9 @@ const Daily = () => {
 const Tab = createBottomTabNavigator();
 return (
     <View style={{width:'100%',height:'100%'}}>
+    
     <Tab.Navigator
-        initialRouteName="Daily"
+        initialRouteName="Daily"        
         screenOptions={{
         headerShown: false,
         tabBarActiveTintColor: 'green',
@@ -19,12 +20,15 @@ return (
             fontSize:12,
             fontWeight:"600"
         }
+        
 
         }}
         >
+
         <Tab.Screen
         name="Daily"
         component={All}
+        
         options={{
             tabBarIcon: ({focused}) => {
             return (
