@@ -15,11 +15,14 @@ import SendIntentAndroid from 'react-native-send-intent';
 
 
 const Orders = ({navigation}) => {
-  const {addToCart, decreaseQuantity, totalAmount} = useCart();
+  const {addToCart, decreaseQuantity, totalAmount,removeFromCart} = useCart();
 
   const handleIncreaseQuantity = itemId => {
     addToCart(itemId);
   };
+
+  
+
 
   const {cartItems} = useCart();
 
@@ -219,6 +222,12 @@ const Orders = ({navigation}) => {
                           </Text>
                         </TouchableOpacity>
                       </View>
+                    </View>
+                    <View style={{marginRight:15}}>
+                    <TouchableOpacity
+                          onPress={() => removeFromCart(item.id)}>
+                          <Image source={require('../Assets/delete/trash.png')}></Image>
+                    </TouchableOpacity>
                     </View>
                   </View>
                 );

@@ -7,7 +7,7 @@ import Home from './Components/Home';
 import Daily from './Components/Daily';
 import LoginPage from './Components/LoginPage';
 import { CartProvider } from './context/shop-context';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+import Details from './Components/Details';
 
 const App = () => {
   const Stack = createStackNavigator();
@@ -22,6 +22,7 @@ const App = () => {
             <LoginPage isVisible={true} onClose={() => navigation.goBack()} />
           )}
       </Stack.Screen>
+      <Stack.Screen name="Details" component={Details}/>
     </Stack.Navigator>
     </NavigationContainer>
     </CartProvider>

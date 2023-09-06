@@ -1,14 +1,18 @@
 import { StyleSheet, Text, View , ScrollView, Image,Button } from 'react-native'
-import React, {useState} from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 import { TextInput, TouchableOpacity } from 'react-native-gesture-handler'
 import { Beverages, Dairy, Data, Datas, Homecare, Personal, Snacks, curated, meat, open, popular, rice } from '../Products'
 import { NavigationProp } from '@react-navigation/native'
 import LoginPage from './LoginPage'
 import { useCart } from '../context/shop-context'
 
+
+
 type AllProps={
+    
     navigation: NavigationProp<any>
 };
+
 
 const All: React.FC<AllProps> = ({navigation}) => {
     const loginPress = () =>{
@@ -54,7 +58,6 @@ const renderItemButton = (item) => {
   };  
 
 
-
 return (
     <View style={styles.main}>
         <LoginPage isVisible={isLoginVisible} onClose={closeLogin}/>
@@ -83,9 +86,12 @@ return (
                 <ScrollView horizontal style={{backgroundColor:'white'}}>
                     {
                     Data.map(items=>(
+                        
                         <View style={styles.mapitems} key={items.id}>
                             <View style={{alignItems:'center'}}>
+                            <TouchableOpacity onPress={() => {navigation.navigate("Details", { itemId: items.id });}}>
                             <Image style={{width:70, height:70}}  source={items.image}/>
+                            </TouchableOpacity>
                             </View>
                             <View style={styles.mapcontent}>
                             <View>
@@ -99,6 +105,7 @@ return (
                             </View>
                             
                         </View>
+                        
                     )
                     )
                     }
@@ -113,6 +120,7 @@ return (
                     <Image style={{width:370, height:150, borderRadius:15 , marginLeft:20 , marginTop:15}} source={require('./images/Home/six.png')}></Image>
                     <Image style={{width:370, height:150, borderRadius:15 , marginLeft:20 , marginTop:15}} source={require('./images/Home/seven.png')}></Image>
                     <Image style={{width:370, height:150, borderRadius:15 , marginLeft:20 , marginTop:15}} source={require('./images/Home/one.png')}></Image>
+
                 </ScrollView>
                 </View>
                 <View style={{marginTop:10, backgroundColor:'white', height:180,}}>
@@ -141,7 +149,7 @@ return (
                 <View>
 
                     <View style={{flexDirection:'row', height:150, justifyContent:'space-around', alignItems:'center'}}>
-
+                        <TouchableOpacity>
                         <View style={{ justifyContent:'space-evenly', alignItems:'center', width:90, height:130, borderRadius:6}}>
                             <View style={{ backgroundColor:'rgb(242, 242, 242)',alignItems:'center',height:100}}>
                                 <Text style={{color:'rgb(204, 0, 204)', fontSize:12, fontWeight:'bold', backgroundColor:'white', borderWidth:0.3, width:70,textAlign:'center', borderColor:'rgb(204, 0, 204)', borderRadius:2}}>50% OFF</Text>
@@ -149,7 +157,8 @@ return (
                             </View>                        
                         <Text style={{color:'black',fontWeight:'bold'}}>Beverages</Text>
                         </View>
-
+                        </TouchableOpacity>
+                        <TouchableOpacity>
                         <View style={{ justifyContent:'space-around', alignItems:'center' , width:90, height:130, borderRadius:6}}>
                             <View style={{backgroundColor:'rgb(242, 242, 242)',alignItems:'center',height:100}}>
                             <Text style={{color:'rgb(204, 0, 204)', fontSize:12, fontWeight:'bold', backgroundColor:'white', borderWidth:0.3, width:70,textAlign:'center', borderColor:'rgb(204, 0, 204)', borderRadius:2}}>54% OFF</Text>
@@ -157,7 +166,8 @@ return (
                             </View>             
                         <Text style={{color:'black',fontWeight:'bold'}}>Atta,Dal</Text>
                         </View>
-
+                        </TouchableOpacity>
+                        <TouchableOpacity>
                         <View style={{ justifyContent:'space-around', alignItems:'center' , width:90, height:130, borderRadius:6}}>
                             <View style={{backgroundColor:'rgb(242, 242, 242)',alignItems:'center',height:100}}>
                             <Text style={{color:'rgb(204, 0, 204)', fontSize:12, fontWeight:'bold', backgroundColor:'white', borderWidth:0.3, width:70,textAlign:'center', borderColor:'rgb(204, 0, 204)', borderRadius:2}}>59% OFF</Text>
@@ -165,20 +175,21 @@ return (
                             </View>      
                         <Text style={{color:'black',fontWeight:'bold'}}>Dry Fruits</Text>
                         </View>
-
+                        </TouchableOpacity>
+                        <TouchableOpacity>
                         <View style={{ justifyContent:'space-around', alignItems:'center' , width:90, height:130, borderRadius:6}}>
                             <View style={{backgroundColor:'rgb(242, 242, 242)',alignItems:'center',height:100}}>
                             <Text style={{color:'rgb(204, 0, 204)', fontSize:12, fontWeight:'bold', backgroundColor:'white', borderWidth:0.3, width:70,textAlign:'center', borderColor:'rgb(204, 0, 204)', borderRadius:2}}>50% OFF</Text>
                             <Image style={{width:80, height:80, borderRadius:5}} source={require('./images/Home/corn.png')}></Image>
-                            </View>
-                    
-                        <Text style={{color:'black',fontWeight:'bold'}}>Breakfasts</Text>
+                            </View>                            
+                            <Text style={{color:'black',fontWeight:'bold'}}>Breakfasts</Text>
                         </View> 
+                        </TouchableOpacity>
                     
                     </View>
 
                     <View style={{flexDirection:'row', height:150, justifyContent:'space-around', alignItems:'center'}}>
-
+                        <TouchableOpacity>
                         <View style={{ justifyContent:'space-around', alignItems:'center' , width:90, height:130, borderRadius:6}}>
                             <View style={{backgroundColor:'rgb(242, 242, 242)',alignItems:'center',height:100}}>
                             <Text style={{color:'rgb(204, 0, 204)', fontSize:12, fontWeight:'bold', backgroundColor:'white', borderWidth:0.3, width:70,textAlign:'center', borderColor:'rgb(204, 0, 204)', borderRadius:2}}>50% OFF</Text>
@@ -186,7 +197,8 @@ return (
                             </View>                       
                         <Text style={{color:'black',fontWeight:'bold'}}>Cleaning</Text>
                         </View> 
-
+                        </TouchableOpacity>
+                        <TouchableOpacity>
                         <View style={{ justifyContent:'space-around', alignItems:'center' , width:90, height:130, borderRadius:6}}>
                             <View style={{backgroundColor:'rgb(242, 242, 242)',alignItems:'center',height:100}}>
                             <Text style={{color:'rgb(204, 0, 204)', fontSize:12, fontWeight:'bold', backgroundColor:'white', borderWidth:0.3, width:70,textAlign:'center', borderColor:'rgb(204, 0, 204)', borderRadius:2}}>24% OFF</Text>
@@ -194,7 +206,8 @@ return (
                             </View>                       
                         <Text style={{color:'black',fontWeight:'bold'}}>Desserts</Text>
                         </View> 
-
+                        </TouchableOpacity>
+                        <TouchableOpacity>
                         <View style={{ justifyContent:'space-around', alignItems:'center' , width:90, height:130, borderRadius:6}}>
                             <View style={{backgroundColor:'rgb(242, 242, 242)',alignItems:'center',height:100}}>
                             <Text style={{color:'rgb(204, 0, 204)', fontSize:12, fontWeight:'bold', backgroundColor:'white', borderWidth:0.3, width:70,textAlign:'center', borderColor:'rgb(204, 0, 204)', borderRadius:2}}>25% OFF</Text>
@@ -202,7 +215,8 @@ return (
                             </View>              
                         <Text style={{color:'black',fontWeight:'bold'}}>Instant Item</Text>
                         </View> 
-
+                        </TouchableOpacity>
+                        <TouchableOpacity>
                         <View style={{ justifyContent:'space-around', alignItems:'center' , width:90, height:130, borderRadius:6}}>
                             <View style={{backgroundColor:'rgb(242, 242, 242)',alignItems:'center',height:100}}>
                             <Text style={{color:'rgb(204, 0, 204)', fontSize:12, fontWeight:'bold', backgroundColor:'white', borderWidth:0.3, width:70,textAlign:'center', borderColor:'rgb(204, 0, 204)', borderRadius:2}}>50% OFF</Text>
@@ -210,11 +224,11 @@ return (
                             </View>
                         <Text style={{color:'black',fontWeight:'bold'}}>Personal</Text>
                         </View>  
-                        
+                        </TouchableOpacity>
                     </View>
 
                     <View style={{flexDirection:'row', height:150, justifyContent:'space-around', alignItems:'center'}}>
-
+                        <TouchableOpacity>
                         <View style={{ justifyContent:'space-around', alignItems:'center' , width:90, height:130, borderRadius:6}}>
                             <View style={{backgroundColor:'rgb(242, 242, 242)',alignItems:'center',height:100}}>
                             <Text style={{color:'rgb(204, 0, 204)', fontSize:12, fontWeight:'bold', backgroundColor:'white', borderWidth:0.3, width:70,textAlign:'center', borderColor:'rgb(204, 0, 204)', borderRadius:2}}>28% OFF</Text>
@@ -222,7 +236,8 @@ return (
                             </View>
                         <Text style={{color:'black',fontWeight:'bold'}}>Sweats</Text>
                         </View>
-
+                        </TouchableOpacity>
+                        <TouchableOpacity>
                         <View style={{ justifyContent:'space-around', alignItems:'center' , width:90, height:130, borderRadius:6}}>
                             <View style={{backgroundColor:'rgb(242, 242, 242)',alignItems:'center',height:100}}>
                             <Text style={{color:'rgb(204, 0, 204)', fontSize:12, fontWeight:'bold', backgroundColor:'white', borderWidth:0.3, width:70,textAlign:'center', borderColor:'rgb(204, 0, 204)', borderRadius:2}}>30% OFF</Text>
@@ -230,7 +245,8 @@ return (
                             </View>
                         <Text style={{color:'black',fontWeight:'bold'}}>Breads</Text>
                         </View>
-
+                        </TouchableOpacity>
+                        <TouchableOpacity>
                         <View style={{ justifyContent:'space-around', alignItems:'center' , width:90, height:130, borderRadius:6}}>
                             <View style={{backgroundColor:'rgb(242, 242, 242)',alignItems:'center',height:100}}>
                             <Text style={{color:'rgb(204, 0, 204)', fontSize:12, fontWeight:'bold', backgroundColor:'white', borderWidth:0.3, width:70,textAlign:'center', borderColor:'rgb(204, 0, 204)', borderRadius:2}}>10% OFF</Text>
@@ -238,7 +254,8 @@ return (
                             </View>
                         <Text style={{color:'black',fontWeight:'bold'}}>Pet Care</Text>
                         </View>
-
+                        </TouchableOpacity>
+                        <TouchableOpacity>
                         <View style={{ justifyContent:'space-around', alignItems:'center' , width:90, height:130, borderRadius:6}}>
                             <View style={{backgroundColor:'rgb(242, 242, 242)',alignItems:'center',height:100}}>
                             <Text style={{color:'rgb(204, 0, 204)', fontSize:12, fontWeight:'bold', backgroundColor:'white', borderWidth:0.3, width:70,textAlign:'center', borderColor:'rgb(204, 0, 204)', borderRadius:2}}>50% OFF</Text>
@@ -246,7 +263,7 @@ return (
                             </View>
                         <Text style={{color:'black',fontWeight:'bold'}}>Baby Care</Text>
                         </View>
-                        
+                        </TouchableOpacity>
                     </View>               
                 </View>
                 
@@ -276,7 +293,9 @@ return (
                             <Text style={{color:'green'}}>{allitem.item}</Text>
                             </View>                            
                             <View>
+                            <TouchableOpacity onPress={() => {navigation.navigate("Details", { itemId: allitem.id });}}>
                             <Image style={{width:150, height:150}} source={allitem.image}/>
+                            </TouchableOpacity>
                             </View>
                             <View style={{ width:'100%', height:40, justifyContent:'space-between', alignItems:'center',flexDirection:'row'}}>
                             <Text style={{color:'black', marginLeft:15, fontWeight:'bold'}}>₹{allitem.price}</Text>
@@ -303,8 +322,10 @@ return (
                     {
                         popular.map(allpop=>(
                             <View style={styles.mapitems} key={allpop.id}>
-                                <View style={{alignItems:'center'}}>
+                            <View style={{alignItems:'center'}}>
+                            <TouchableOpacity onPress={() => {navigation.navigate("Details", { itemId: allpop.id });}}>
                             <Image style={{width:70, height:70}}  source={allpop.image}/>
+                            </TouchableOpacity>
                             </View>
                             <View style={styles.mapcontent}>
                             <View>
@@ -360,7 +381,9 @@ return (
                                         </View>
                                     </View>
                                     <View>
-                                        <Image style={{width:120, height:120}} source={opitem.image}/>
+                                    <TouchableOpacity onPress={() => {navigation.navigate("Details", { itemId: opitem.id });}}>
+                                    <Image style={{width:120, height:120}} source={opitem.image}/>
+                                    </TouchableOpacity>
                                     </View>
                                     <View style={{flexDirection:'row', justifyContent:'space-between', width:'90%'}}>                                        
                                         <View>
@@ -395,7 +418,9 @@ return (
 
                             <View key={curitems.id} style={{width:110, height:130, justifyContent:'space-around', alignItems:'center', marginLeft:15, marginRight:15}}>
                             <View style={[{backgroundColor:curitems.color}, styles.curateditems]}>
+                            <TouchableOpacity>
                                 <Image style={{width:55, height:55}} source={curitems.image}></Image>
+                            </TouchableOpacity>
                             </View>
                             <View style={{alignItems:'center'}}>
                                 <Text style={{color:'black', fontWeight:'bold'}}>{curitems.head}</Text>
@@ -439,7 +464,9 @@ return (
                     Personal.map(peritem=>(
                         <View style={styles.peritems} key={peritem.id}>
                             <View style={{alignItems:'center'}}>
+                            <TouchableOpacity onPress={() => {navigation.navigate("Details", { itemId: peritem.id });}}>                   
                             <Image style={{width:70, height:70}}  source={peritem.image}/>
+                            </TouchableOpacity>
                             </View>
                             <View style={styles.mapcontent}>
                             <View>
@@ -477,7 +504,9 @@ return (
                     rice.map(riitem=>(
                         <View style={styles.peritems} key={riitem.id}>
                             <View style={{alignItems:'center'}}>
+                            <TouchableOpacity onPress={() => {navigation.navigate("Details", { itemId: riitem.id });}}>
                             <Image style={{width:70, height:70}}  source={riitem.image}/>
+                            </TouchableOpacity>
                             </View>
                             <View style={styles.mapcontent}>
                             <View>
@@ -515,7 +544,9 @@ return (
                     Dairy.map(daiitem=>(
                         <View style={styles.peritems} key={daiitem.id}>
                             <View style={{alignItems:'center'}}>
+                            <TouchableOpacity onPress={() => {navigation.navigate("Details", { itemId: daiitem.id });}}>
                             <Image style={{width:70, height:70}}  source={daiitem.image}/>
+                            </TouchableOpacity>
                             </View>
                             <View style={styles.mapcontent}>
                             <View>
@@ -553,7 +584,9 @@ return (
                     Snacks.map(snaitem=>(
                         <View style={styles.peritems} key={snaitem.id}>
                             <View style={{alignItems:'center'}}>
+                            <TouchableOpacity onPress={() => {navigation.navigate("Details", { itemId: snaitem.id });}}>
                             <Image style={{width:70, height:70}}  source={snaitem.image}/>
+                            </TouchableOpacity>
                             </View>
                             <View style={styles.mapcontent}>
                             <View>
@@ -591,7 +624,9 @@ return (
                     Beverages.map(bevitem=>(
                         <View style={styles.peritems} key={bevitem.id}>
                             <View style={{alignItems:'center'}}>
+                            <TouchableOpacity onPress={() => {navigation.navigate("Details", { itemId: bevitem.id });}}>
                             <Image style={{width:80, height:80}}  source={bevitem.image}/>
+                            </TouchableOpacity>
                             </View>
                             <View style={styles.mapcontent}>
                             <View>
@@ -629,7 +664,9 @@ return (
                     Homecare.map(hoitem=>(
                         <View style={styles.peritems} key={hoitem.id}>
                             <View style={{alignItems:'center'}}>
+                            <TouchableOpacity onPress={() => {navigation.navigate("Details", { itemId: hoitem.id });}}>
                             <Image style={{width:80, height:80}}  source={hoitem.image}/>
+                            </TouchableOpacity>
                             </View>
                             <View style={styles.mapcontent}>
                             <View>
@@ -667,7 +704,9 @@ return (
                     meat.map(meitem=>(
                         <View style={styles.peritems} key={meitem.id}>
                             <View style={{alignItems:'center'}}>
+                            <TouchableOpacity onPress={() => {navigation.navigate("Details", { itemId: meitem.id });}}>
                             <Image style={{width:80, height:80}}  source={meitem.image}/>
+                            </TouchableOpacity>
                             </View>
                             <View style={styles.mapcontent}>
                             <View>

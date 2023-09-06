@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState ,useEffect} from 'react';
 import { StyleSheet, Text, TouchableOpacity, View, TextInput, Image, Alert, KeyboardAvoidingView, ScrollView,Platform } from 'react-native';
 import { NavigationProp } from '@react-navigation/native';
 
@@ -16,7 +16,6 @@ const Home: React.FC<HomeProps> = ({ navigation }) => {
     const isValid = /^\d{10}$/.test(text);
     setIsValidPhoneNumber(isValid);
     setPhoneNumber(text);
-    // Hide the warning when the user starts typing
     if (showWarning && text.length > 0) {
       setShowWarning(false);
     }
@@ -27,10 +26,9 @@ const Home: React.FC<HomeProps> = ({ navigation }) => {
       
       navigation.navigate('Daily');
     } else {
-      // The phone number is not valid, show an error alert
-      Alert.alert('Invalid Phone Number', 'Please enter a valid Phone Number.');
-      // Show the warning message
-      setShowWarning(true);
+      Alert.alert('Invalid Phone Number', 'Please enter a valid Phone Number.',[
+        { text: 'OK', onPress: () => setShowWarning(true) },
+      ]);
     }
   };
 
@@ -59,6 +57,7 @@ const Home: React.FC<HomeProps> = ({ navigation }) => {
             placeholderTextColor="black"
             onChangeText={handlePhoneNumberChange}
             value={phoneNumber}
+            keyboardType="numeric"
           />
             </View>          
           </View>
@@ -76,6 +75,7 @@ const Home: React.FC<HomeProps> = ({ navigation }) => {
           </TouchableOpacity>
         </View>
         {showWarning && <Text style={styles.warningText}>Please enter a valid Phone Number.</Text>}
+
       </ScrollView>
     </KeyboardAvoidingView>
   );
