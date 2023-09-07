@@ -117,7 +117,10 @@ import popcorn from './Assets/meat/popcorn.png'
         head:'',
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:2,
@@ -129,7 +132,10 @@ import popcorn from './Assets/meat/popcorn.png'
         head:'',
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'550 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:3,
@@ -141,7 +147,10 @@ import popcorn from './Assets/meat/popcorn.png'
         head:'',
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'150 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:4,
@@ -153,7 +162,10 @@ import popcorn from './Assets/meat/popcorn.png'
         head:'',
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'80 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:5,
@@ -165,7 +177,10 @@ import popcorn from './Assets/meat/popcorn.png'
         head:'',
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'550 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:6,
@@ -177,7 +192,10 @@ import popcorn from './Assets/meat/popcorn.png'
         head:'',
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'150 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:7,
@@ -189,7 +207,10 @@ import popcorn from './Assets/meat/popcorn.png'
         head:'',
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'150 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
 
     
@@ -205,7 +226,10 @@ export const Datas=[
         color:'rgb(255, 229, 204)',
         head:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:9,
@@ -217,8 +241,12 @@ export const Datas=[
         color:'rgb(255, 204, 255)',
         head:'',
         var:'',
-        tit:''
-    },{
+        tit:'',
+        shelf:'60 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
+    },
+    {
         id:10,
         cat:'quick',
         title:'Turtle Chips',
@@ -228,8 +256,12 @@ export const Datas=[
         color:'rgb(204, 255, 204)',
         head:'',
         var:'',
-        tit:''
-    },{
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
+    },
+    {
         id:11,
         cat:'quick',
         title:'Doritos Chilli',
@@ -239,8 +271,12 @@ export const Datas=[
         color:'rgb(255, 229, 204)',
         head:'',
         var:'',
-        tit:''
-    },{
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
+    },
+    {
         id:12,
         cat:'quick',
         title:'Dev Snacks',
@@ -250,8 +286,12 @@ export const Datas=[
         color:'rgb(255, 204, 255)',
         head:'',
         var:'',
-        tit:''
-    },{
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
+    },
+    {
         id:13,
         cat:'quick',
         title:'Lays',
@@ -261,8 +301,12 @@ export const Datas=[
         color:'rgb(204, 255, 204)',
         head:'',
         var:'',
-        tit:''
-    },{
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
+    },
+    {
         id:14,
         cat:'quick',
         title:'Kurkure Packs',
@@ -272,7 +316,10 @@ export const Datas=[
         color:'rgb(255, 229, 204)',
         head:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
 
 ]
@@ -288,7 +335,10 @@ export const popular=[
         head:'',
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'30 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:16,
@@ -300,7 +350,10 @@ export const popular=[
         head:'',
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'60 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:17,
@@ -312,7 +365,10 @@ export const popular=[
         head:'',
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'30 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:18,
@@ -324,7 +380,10 @@ export const popular=[
         head:'',
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'180 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:19,
@@ -336,7 +395,10 @@ export const popular=[
         head:'',
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'30 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:20,
@@ -348,7 +410,10 @@ export const popular=[
         head:'',
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'550 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:21,
@@ -360,7 +425,10 @@ export const popular=[
         head:'',
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
 ]
 
@@ -375,7 +443,10 @@ export const open=[
         price:170,
         item:'300 gms',
         color:'rgb(230, 204, 255)',
-        var:'6 variants available'
+        var:'6 variants available',
+        shelf:'60 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:23,
@@ -387,7 +458,10 @@ export const open=[
         item:'200 gms',
         color:'rgb(230, 204, 255)',
         var:'5 variants available',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:24,
@@ -400,6 +474,9 @@ export const open=[
         color:'rgb(255, 247, 230)',
         tit:'',
         var:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:25,
@@ -411,7 +488,10 @@ export const open=[
         item:'75 gms',
         color:'rgb(255, 247, 230)',
         var:'3 variants available',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:26,
@@ -423,7 +503,10 @@ export const open=[
         price:209,
         item:'1 kg',
         color:'rgb(255, 255, 128)',
-        var:'4 variants available'
+        var:'4 variants available',
+        shelf:'60 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:27,
@@ -435,7 +518,10 @@ export const open=[
         item:'800 gms',
         color:'rgb(255, 255, 128)',
         var:'5 variants available',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:28,
@@ -447,7 +533,10 @@ export const open=[
         item:'950 gms',
         color:'rgb(255, 230, 230)',
         var:'3 variants available',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:29,
@@ -459,7 +548,10 @@ export const open=[
         price:210,
         item:'400 gms',
         color:'rgb(204, 255, 204)',
-        var:''
+        var:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:30,
@@ -471,7 +563,10 @@ export const open=[
         price:240,
         item:'800 gms',
         color:'rgb(204, 255, 204)',
-        var:''
+        var:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:31,
@@ -483,7 +578,10 @@ export const open=[
         item:'400 gms',
         color:'rgb(230, 255, 255)',
         var:'3 variants available',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     
 ]
@@ -499,7 +597,10 @@ export const curated=[
         item:'',
         var:'',
         tit:'',
-        price:''
+        price:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:33,
@@ -511,7 +612,10 @@ export const curated=[
         item:'',
         var:'',
         tit:'',
-        price:''
+        price:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:34,
@@ -523,7 +627,10 @@ export const curated=[
         item:'',
         var:'',
         tit:'',
-        price:''
+        price:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:35,
@@ -535,7 +642,10 @@ export const curated=[
         item:'',
         var:'',
         tit:'',
-        price:''
+        price:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:36,
@@ -547,7 +657,10 @@ export const curated=[
         item:'',
         var:'',
         tit:'',
-        price:''
+        price:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:37,
@@ -559,7 +672,10 @@ export const curated=[
         item:'',
         var:'',
         tit:'',
-        price:''
+        price:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:38,
@@ -571,7 +687,10 @@ export const curated=[
         item:'',
         var:'',
         tit:'',
-        price:''
+        price:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:39,
@@ -583,7 +702,10 @@ export const curated=[
         item:'',
         var:'',
         tit:'',
-        price:''
+        price:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
 ]
 
@@ -598,7 +720,10 @@ export const Personal=[
         price:418,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:41,
@@ -610,8 +735,11 @@ export const Personal=[
         price:634,
         color:'',
         var:'',
-        tit:''
-        
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',    
+    
     },
     {
         id:42,
@@ -623,7 +751,10 @@ export const Personal=[
         price:226,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:43,
@@ -634,7 +765,10 @@ export const Personal=[
         price:214,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:44,
@@ -646,7 +780,10 @@ export const Personal=[
         price:78,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:45,
@@ -658,7 +795,10 @@ export const Personal=[
         price:299,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:46,
@@ -670,7 +810,10 @@ export const Personal=[
         price:250,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:47,
@@ -681,7 +824,10 @@ export const Personal=[
         price:210,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
 ]
 
@@ -696,7 +842,10 @@ export const rice=[
         price:530,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:49,
@@ -708,7 +857,10 @@ export const rice=[
         price:508,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:50,
@@ -720,7 +872,10 @@ export const rice=[
         price:527,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:51,
@@ -732,7 +887,10 @@ export const rice=[
         price:530,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:52,
@@ -744,7 +902,10 @@ export const rice=[
         price:299,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:53,
@@ -756,7 +917,10 @@ export const rice=[
         price:485,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:54,
@@ -768,7 +932,10 @@ export const rice=[
         price:209,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
 ]
 
@@ -783,7 +950,10 @@ export const Dairy=[
         price:25,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'15 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:56,
@@ -794,7 +964,10 @@ export const Dairy=[
         price:67,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'15 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:57,
@@ -805,7 +978,10 @@ export const Dairy=[
         price:52,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'15 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:58,
@@ -817,7 +993,10 @@ export const Dairy=[
         price:84,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'15 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:59,
@@ -829,7 +1008,10 @@ export const Dairy=[
         price:50,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'15 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:60,
@@ -840,7 +1022,10 @@ export const Dairy=[
         price:220,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'15 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:61,
@@ -852,7 +1037,10 @@ export const Dairy=[
         price:50,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'15 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:62,
@@ -863,7 +1051,10 @@ export const Dairy=[
         price:167,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:63,
@@ -875,7 +1066,10 @@ export const Dairy=[
         price:130,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
 ]
 
@@ -890,7 +1084,10 @@ export const Snacks =[
         price:30,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:65,
@@ -902,7 +1099,10 @@ export const Snacks =[
         price:215,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:66,
@@ -914,7 +1114,10 @@ export const Snacks =[
         price:20,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:67,
@@ -926,7 +1129,10 @@ export const Snacks =[
         price:90,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:68,
@@ -938,7 +1144,10 @@ export const Snacks =[
         price:255,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:69,
@@ -950,7 +1159,10 @@ export const Snacks =[
         price:182,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:70,
@@ -962,7 +1174,10 @@ export const Snacks =[
         price:80,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:71,
@@ -974,7 +1189,10 @@ export const Snacks =[
         price:50,
         color:'',
         var:'',
-        tit:''
+        tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:72,
@@ -986,7 +1204,10 @@ export const Snacks =[
         color:'',
         var:'',
         tit:'',
-        head:''
+        head:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
 ]
 
@@ -1001,7 +1222,10 @@ export const Beverages=[
         color:'',
         var:'',
         tit:'',
-        head:''
+        head:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:74,
@@ -1014,6 +1238,9 @@ export const Beverages=[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:75,
@@ -1026,6 +1253,9 @@ export const Beverages=[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:76,
@@ -1038,6 +1268,9 @@ export const Beverages=[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:77,
@@ -1050,6 +1283,9 @@ export const Beverages=[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:78,
@@ -1062,6 +1298,9 @@ export const Beverages=[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:79,
@@ -1074,6 +1313,9 @@ export const Beverages=[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:80,
@@ -1086,6 +1328,9 @@ export const Beverages=[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:81,
@@ -1098,6 +1343,9 @@ export const Beverages=[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
 ]
 
@@ -1113,6 +1361,9 @@ export const Homecare =[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:83,
@@ -1125,6 +1376,9 @@ export const Homecare =[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:84,
@@ -1137,6 +1391,9 @@ export const Homecare =[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:85,
@@ -1149,6 +1406,9 @@ export const Homecare =[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:86,
@@ -1161,6 +1421,9 @@ export const Homecare =[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:87,
@@ -1173,6 +1436,9 @@ export const Homecare =[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:88,
@@ -1185,6 +1451,9 @@ export const Homecare =[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:89,
@@ -1197,6 +1466,9 @@ export const Homecare =[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:90,
@@ -1209,6 +1481,9 @@ export const Homecare =[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
 ]
 
@@ -1223,7 +1498,10 @@ export const meat=[
         color:'',
         var:'',
         tit:'',
-        head:''
+        head:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:92,
@@ -1235,7 +1513,10 @@ export const meat=[
         color:'',
         var:'',
         tit:'',
-        head:''
+        head:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:93,
@@ -1248,6 +1529,9 @@ export const meat=[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:94,
@@ -1260,7 +1544,10 @@ export const meat=[
         color:'',
         var:'',
         tit:'',
-        head:''
+        head:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:95,
@@ -1272,7 +1559,10 @@ export const meat=[
         color:'',
         var:'',
         tit:'',
-        head:''
+        head:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:96,
@@ -1285,6 +1575,9 @@ export const meat=[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:97,
@@ -1297,6 +1590,9 @@ export const meat=[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:98,
@@ -1309,6 +1605,9 @@ export const meat=[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
     {
         id:99,
@@ -1321,5 +1620,8 @@ export const meat=[
         color:'',
         var:'',
         tit:'',
+        shelf:'90 Days',
+        desc:'The product images(s) shown are representative of the actual product. It is recommanded to read the labels, batch details, manufacturing details, expiration date, list of ingredients, directors, and warnings etc., as contained in the actual product label before consuming or utilizing the product other information, please contact the merchant or the manufacturer through the contact details as provided on the label',
+        fullDesc:'',
     },
 ]
