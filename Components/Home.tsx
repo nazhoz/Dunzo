@@ -40,12 +40,12 @@ const Home: React.FC<HomeProps> = ({ navigation }) => {
       <ScrollView contentContainerStyle={styles.scrollViewContainer}>
         <View style={{ backgroundColor: 'rgb(179, 255, 179)', height: 560, width: 430, alignItems:'center', justifyContent:'center' }}>
           <Image style={{ width: 250, height: 250 }} source={require('./images/dunzo.webp')} />
-          <Image source={require('./images/text/text.png')}></Image>
+          <Image style={{width:500, height:150}} source={require('./images/text/text.png')}></Image>
         </View>
 
         <View style={styles.inputs}>
           <View style={{marginLeft:15}}>
-          <Text style={{color:'black', fontSize:19, fontWeight:'600'}}>Get started with Dunzo</Text>
+          <Text style={{color:'black', fontSize:19, fontWeight:'600'}}>Get started with GrocGo</Text>
           </View>
           <View style={{marginLeft:15}}>
             <Text style={{color:'grey',fontSize:14, fontWeight:'400',marginLeft:5}}>Enter Your Mobile Number</Text>
